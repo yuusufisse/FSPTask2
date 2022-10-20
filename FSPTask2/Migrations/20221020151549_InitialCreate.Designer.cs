@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FSPTask2.Migrations
 {
     [DbContext(typeof(FSPTask2Context))]
-    [Migration("20221020102158_InitialCreate")]
+    [Migration("20221020151549_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -9,7 +9,7 @@ namespace FSPTask2.Models
     {
         public int Id { get; set; }
         public string TeacherName { get; set; }
-        public List<Course> Courses { get; set; }
+        public List<Course>? Courses { get; set; }
 
     }
 }
